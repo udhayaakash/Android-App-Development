@@ -50,4 +50,10 @@ public class MainActivity extends ActionBarActivity {
         TextView q = (TextView) findViewById( R.id.price);
         q.setText("" + number);
     }
+
+    public void diss(String message)
+    {
+        TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
+        quantityTextView.setText(message);
+    }
 }
